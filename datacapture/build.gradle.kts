@@ -153,14 +153,6 @@ kotlin {
       }
     }
 
-    listOf("iosX64Main", "iosArm64Main", "iosSimulatorArm64Main").forEach {
-      getByName(it) {
-        dependencies {
-          implementation(libs.moko.permissions.camera)
-          implementation(libs.moko.permissions.compose)
-        }
-      }
-    }
   }
 }
 
