@@ -161,6 +161,7 @@ kotlin {
       }
     }
 
+    jsMain { dependencies { implementation(libs.compass.geolocation.browser) } }
     wasmJsMain { dependencies { implementation(libs.compass.geolocation.browser) } }
   }
 }
