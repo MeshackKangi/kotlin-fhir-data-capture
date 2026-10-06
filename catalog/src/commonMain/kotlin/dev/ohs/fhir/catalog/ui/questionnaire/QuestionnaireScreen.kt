@@ -53,8 +53,8 @@ import dev.ohs.fhir.datacapture.Questionnaire
 import dev.ohs.fhir.datacapture.QuestionnaireConfig
 import dev.ohs.fhir.datacapture.QuestionnaireItemViewFactoryMatcher
 import dev.ohs.fhir.datacapture.QuestionnaireItemViewFactoryMatchersProvider
-import dev.ohs.fhir.datacapture.views.locationwidget.LocationCaptureItemViewFactoryMatcher
-import dev.ohs.fhir.datacapture.views.locationwidget.LocationCoordinateItemViewFactoryMatcher
+import dev.ohs.fhir.datacapture.views.factories.locationwidget.LocationCaptureItemViewFactoryMatcher
+import dev.ohs.fhir.datacapture.views.factories.locationwidget.LocationCoordinateItemViewFactoryMatcher
 import kotlin_fhir_data_capture.catalog.generated.resources.Res
 import kotlin_fhir_data_capture.catalog.generated.resources.arrow_back_filled_24dp
 import kotlin_fhir_data_capture.catalog.generated.resources.behavior_name_calculated_expression
